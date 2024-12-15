@@ -1,0 +1,29 @@
+# do ../script/run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Start time: 18:24:49 on Dec 15,2024
+# vlog ../../rtl/mod_m_counter.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module mod_m_counter
+# 
+# Top level modules:
+# 	mod_m_counter
+# End time: 18:24:49 on Dec 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 18:24:49 on Dec 15,2024
+# vlog ../../tb/mod_m_counter_tb.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module mod_m_counter_tb
+# 
+# Top level modules:
+# 	mod_m_counter_tb
+# End time: 18:24:49 on Dec 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -voptargs=""+acc"" work.mod_m_counter_tb -wlf mod_m_counter.wlf 
+# Start time: 18:24:50 on Dec 15,2024
+# Loading sv_std.std
+# Loading work.mod_m_counter_tb
+# Loading work.mod_m_counter
+# ** Note: $finish    : ../../tb/mod_m_counter_tb.sv(31)
+#    Time: 2040 ns  Iteration: 0  Instance: /mod_m_counter_tb
+# End time: 18:24:50 on Dec 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
