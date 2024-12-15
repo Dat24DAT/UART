@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/WorkingSpace/pong_chu/fifo_buffer/sim/work
+vfifo_buffer
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1734226069
+!i10b 1
+!s100 [hedQ40K1=haiohoPH4hN0
+IBFJ<fQdT13GI_[?G_cX9B1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fifo_buffer_sv_unit
+S1
+R0
+w1734225820
+8../../rtl/fifo_buffer.sv
+F../../rtl/fifo_buffer.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1734226069.000000
+!s107 ../../rtl/fifo_buffer.sv|
+!s90 ../../rtl/fifo_buffer.sv|
+!i113 1
+Z6 tCvgOpt 0
+vfifo_buffer_tb
+R1
+R2
+!i10b 1
+!s100 5GS@b3=0Km@FQOAo5HYH>2
+IVF;ITA`Zb^Xh<PaMZ`jO@0
+R3
+!s105 fifo_buffer_tb_sv_unit
+S1
+R0
+w1734225036
+8../../tb/fifo_buffer_tb.sv
+F../../tb/fifo_buffer_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../../tb/fifo_buffer_tb.sv|
+!s90 ../../tb/fifo_buffer_tb.sv|
+!i113 1
+R6
