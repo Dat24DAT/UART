@@ -1,0 +1,73 @@
+# do ../script/run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Start time: 10:23:39 on Dec 16,2024
+# vlog ../../rtl/uart.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module uart
+# 
+# Top level modules:
+# 	uart
+# End time: 10:23:39 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 10:23:39 on Dec 16,2024
+# vlog ../../rtl/baudrate.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module baudrate
+# 
+# Top level modules:
+# 	baudrate
+# End time: 10:23:39 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 10:23:39 on Dec 16,2024
+# vlog ../../rtl/fifo_buffer.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module fifo_buffer
+# 
+# Top level modules:
+# 	fifo_buffer
+# End time: 10:23:39 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 10:23:39 on Dec 16,2024
+# vlog ../../rtl/receiver.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module receiver
+# 
+# Top level modules:
+# 	receiver
+# End time: 10:23:39 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 10:23:39 on Dec 16,2024
+# vlog ../../rtl/transmitter.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module transmitter
+# 
+# Top level modules:
+# 	transmitter
+# End time: 10:23:39 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 10:23:39 on Dec 16,2024
+# vlog ../../tb/uart_tb.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module uart_tb
+# 
+# Top level modules:
+# 	uart_tb
+# End time: 10:23:39 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -voptargs=""+acc"" work.uart_tb -wlf uart.wlf 
+# Start time: 10:23:39 on Dec 16,2024
+# Loading sv_std.std
+# Loading work.uart_tb
+# Loading work.uart
+# Loading work.baudrate
+# Loading work.receiver
+# Loading work.transmitter
+# Loading work.fifo_buffer
+# ** Error: Failed read test: rx_empty is high, no data to read.
+#    Time: 160 ns  Scope: uart_tb.read_data File: ../../tb/uart_tb.sv Line: 96
+# ** Error: Failed overflow test: tx_full is low, should be high.
+#    Time: 170 ns  Scope: uart_tb File: ../../tb/uart_tb.sv Line: 58
+# ** Note: $finish    : ../../tb/uart_tb.sv(62)
+#    Time: 170 ns  Iteration: 1  Instance: /uart_tb
+# End time: 10:23:40 on Dec 16,2024, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
