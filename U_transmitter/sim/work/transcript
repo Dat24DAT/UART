@@ -1,0 +1,29 @@
+# do ../script/run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Start time: 09:46:10 on Dec 16,2024
+# vlog ../../rtl/transmitter.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module transmitter
+# 
+# Top level modules:
+# 	transmitter
+# End time: 09:46:10 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 09:46:10 on Dec 16,2024
+# vlog ../../tb/transmitter_tb.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module transmitter_tb
+# 
+# Top level modules:
+# 	transmitter_tb
+# End time: 09:46:10 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -voptargs=""+acc"" work.transmitter_tb -wlf transmitter.wlf 
+# Start time: 09:46:10 on Dec 16,2024
+# Loading sv_std.std
+# Loading work.transmitter_tb
+# Loading work.transmitter
+# ** Note: $finish    : ../../tb/transmitter_tb.sv(36)
+#    Time: 40 ns  Iteration: 1  Instance: /transmitter_tb
+# End time: 09:46:10 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
