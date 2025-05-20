@@ -1,5 +1,5 @@
 module uart #(
-    parameter CLK_FREQ = 100_000_000,  // 100MHz system clock
+    parameter CLK_FREQ = 100_000_000,  // 100MHz CLK
     parameter BAUD_RATE = 115200
 ) (
     input  logic        clk,
@@ -18,7 +18,6 @@ module uart #(
     output logic        rx_busy
 );
 
-    // Instantiate transmitter
     transmitter #(
         .CLK_FREQ(CLK_FREQ),
         .BAUD_RATE(BAUD_RATE)
@@ -31,7 +30,6 @@ module uart #(
         .busy(tx_busy)
     );
 
-    // Instantiate receiver
     receiver #(
         .CLK_FREQ(CLK_FREQ),
         .BAUD_RATE(BAUD_RATE)
